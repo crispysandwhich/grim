@@ -2,16 +2,18 @@ import React from 'react'
 
 function HomePage() {
   return (
-    <div>
+    <div className="homePage">
 
       <div className="hero">
-        <h1>Project X</h1>
-        <h2>A start of something new</h2>
+        <div className="heroContent">
+          <h1>Project X</h1>
+          <h2>A start of something new</h2>
+        </div>
       </div>
 
       <div className="mainContent">
 
-        <p>This is going to be a small start towards a direction that will potential unlock doors that will allow us to have an interesting future with hopes and riches that we all will be able to fuffil. And I hope things will run smoothly most importantly, with what I am trying to do. I hope things will eventually slowly start and eventually start as well as progress. I am tired of a lot of fail attempts towards things I have tried to do, a lose of motivation a lose of spirt, getting too sad or angry. I am tired of my life but hoping that I can eventually create something that can just get me into a good vacation or relaxation after all this cause honestly I just want to die. I am not trying to get you guys to feel any type of way, but I just have been tired and dont know who to talk to or how to talk to you guys so I just burry my feelings into this and this time going to try to actually get this going. I wanna say sorry to most of you guys... but you guys are my brothers, brothers from another mothers, and I am sorry for everything. But this... this is something that I would like to try with you guys and actually get far and freaking finesse and turn this into one of our best years together.
+        <p className="introduction">This is going to be a small start towards a direction that will potential unlock doors that will allow us to have an interesting future with hopes and riches that we all will be able to fuffil. And I hope things will run smoothly most importantly, with what I am trying to do. I hope things will eventually slowly start and eventually start as well as progress. I am tired of a lot of fail attempts towards things I have tried to do, a lose of motivation a lose of spirt, getting too sad or angry. I am tired of my life but hoping that I can eventually create something that can just get me into a good vacation or relaxation after all this cause honestly I just want to die. I am not trying to get you guys to feel any type of way, but I just have been tired and dont know who to talk to or how to talk to you guys so I just burry my feelings into this and this time going to try to actually get this going. I wanna say sorry to most of you guys... but you guys are my brothers, brothers from another mothers, and I am sorry for everything. But this... this is something that I would like to try with you guys and actually get far and freaking finesse and turn this into one of our best years together.
         </p>
 
 

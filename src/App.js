@@ -4,6 +4,7 @@ import './App.css';
 
 import Header from './components/Header';
 import HomePage from './components/HomePage';
+import TributePage from './components/Tribute/TributePage';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
     <Header />
 
     <Switch>
-      <Route exact path="/" exact={HomePage} />
+      <Route exact path="/" component={HomePage} />
+      <Route path="/tribute" component={TributePage} />
     </Switch>
 
 

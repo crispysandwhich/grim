@@ -10,13 +10,13 @@ function Header() {
       <nav className="mainNav">
         <ul>
           <li>
-            <NavLink exact to="/">Home</NavLink>
+            <NavLink exact activeClassName="App-link" to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/tribute">Tribute</NavLink>
+            <NavLink activeClassName="App-link" to="/tribute">Tribute</NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink activeClassName="App-link" to="/contact">Contact</NavLink>
           </li>
         </ul>
       </nav>

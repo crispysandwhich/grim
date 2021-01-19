@@ -7,14 +7,90 @@
 .App {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+/* Header */
+.mainHeader{
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  border-bottom: 5px navy solid;
+}
+.logo{
+  margin: 5px 0;
+}
+.mainNav ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainNav ul li{
+  padding: 5px;
+}
+.mainNav ul li a{
+  text-decoration: none;
+}
+
+/* Home Page */
+.homePage{
+  width: 100%;
+  min-height: 100vh;
+}
+.hero{
+  width: 100%;
+  height: 780px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://images.unsplash.com/photo-1494122353634-c310f45a6d3c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80') no-repeat center center/cover;
+  position: relative;
+}
+.hero::after{
+  content: '';
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  position: absolute;
+  background-color:#0f10117a;
+
+}
+
+.heroContent{
+  text-align: center;
+  border: 2px solid aliceblue;
+  padding: 10px;
+  z-index: 1;
+  /* color: rgb(50, 143, 123); */
+}
+.heroContent h1{
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.heroContent h2{
+  font-size: 1.2rem;
+  font-weight: 100;
+  letter-spacing: 1.2px;
+}
+
+.mainContent{
+  padding: 10px;
+}
+.mainContent p{
+  text-align: justify;
+  width: 100%;
+  padding: 10px;
+}
+.mainContent .introduction{
+  line-height: 1.2;
+  font-size: 20px;
 }
